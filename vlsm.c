@@ -14,11 +14,11 @@ int* bubbleSort(int arr[], int n);
 int main(){
 	int num,x;
 	
-	printf("Number of Subnets: ");
+	printf("Number of Subnets: "); // Number of Subnets
 	scanf("%d",&num);
 	int req[num];
 	
-	printf("\nNumber of Hosts: \n");
+	printf("\nNumber of Hosts: \n"); // Number of Hosts per Subnets
 	for(x=0;x<num;x++){
 		printf("Subnet #%d: ",x+1);
 		scanf("%d",&req[x]);
@@ -28,7 +28,7 @@ int main(){
 	
 	int network[4];
 
-	printf("Network address: ");
+	printf("Network address: "); // Base Network Address
 	scanf("%d.%d.%d.%d",&network[0],&network[1],&network[2],&network[3]);
 	
 	address ip[num];
