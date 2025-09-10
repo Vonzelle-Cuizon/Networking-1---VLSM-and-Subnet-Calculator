@@ -9,8 +9,8 @@ typedef struct{
 int main(){
 	int sm,req,range;
 	int ip[4];
-	printf("IP ADDRESS - SM - Req: ");
-	scanf("%d.%d.%d.%d /%d %d",&ip[0],&ip[1],&ip[2],&ip[3],&sm,&req);
+	printf("IP ADDRESS - SM - Req: ");  // To use: provide IP ADDRESS, SUBNET MASK, NUMBER OF SUBNETS(REQUIREMENT)
+	scanf("%d.%d.%d.%d /%d %d",&ip[0],&ip[1],&ip[2],&ip[3],&sm,&req); // Sample: "192.168.10.10 /22 20
 	
 	int x=0,y,pos=0,q,w,num = 0,diff;
 	
